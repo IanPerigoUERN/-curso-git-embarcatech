@@ -1,0 +1,39 @@
+1-Configurando usuário e e-mail local
+	git config user.name 'Ian Lucas Perigo Vianna"
+	git config user.email 'ian20240027015@alu.uern.br
+
+2- Criando arquivo com informações de matrícula e nome
+        nano arquivo.txt
+
+3- Iniciando o repositório
+	git init
+
+4- Adicionando repositório local ao repositório remoto
+	git remote add origin https://github.com/IanPerigoUERN/-curso-git-embarcatech.git
+
+5- Verificando o status e a branch
+	git status
+
+6- Adicionando o arquivo
+	git add Arquivo.txt
+
+7- Realizando o commit
+	git commit -m "Criando arquivo de texto com o nome e matrícula"
+
+8- Renomeando a branch para main
+	git branch -M main
+
+9- Subindo alterações do repositório local para a branch main do repositório remoto
+	git push -u origin main
+
+10- Criando arquivo de com comandos utilizados no git
+	nano comandos.txt
+
+11- Adicionando arquivo de comandos ao staged área
+	git add comandos.txt
+
+12- Comitando alterações
+	git commit -m "Criado e passado informações ao arquivo de texto com comandos utilizados no git"
+
+13- Enviando alterações ao repositório remoto
+	git push -u origin main
